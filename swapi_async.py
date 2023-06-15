@@ -25,8 +25,7 @@ async def get_in(json_in, name_in):
     for x_in in json_in:
         json_x = await get_json(x_in)
         r.append(json_x[name_in])
-    rr = ", ".join(r) if r else "None"
-    return rr
+    return ", ".join(r) if r else "None"
 
 
 async def insert_to_db(people_json_list):
