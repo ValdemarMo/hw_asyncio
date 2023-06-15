@@ -17,6 +17,8 @@ async def get_json(url_x):
     else:
         if "name" in json_data:
             print(json_data["name"])
+        if "title" in json_data:
+            print(json_data["title"])
     return json_data
 
 
