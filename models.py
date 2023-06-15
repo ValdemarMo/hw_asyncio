@@ -35,9 +35,3 @@ class SwapiPeople(Base):
     starships = Column(String)
     json = Column(JSON)
 
-
-# # films - строка с названиями фильмов через запятую - SSS вытащить из jsona -title
-# # homeworld - SSS вытащить из jsona - name
-# # species - строка с названиями типов через запятую - SSS  jsona - name (droid)
-# # starships - строка с названиями кораблей через запятую -SSS jsona - name
-# # vehicles - строка с названиями транспорта через запятую -SSS jsona - name
