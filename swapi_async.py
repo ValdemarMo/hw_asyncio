@@ -13,7 +13,7 @@ async def get_json(url_x):
     json_data = await response.json()
     await session.close()
     if "detail" in json_data:
-        print(f"ой!>>>>>>>>>>>>>>>>>>>>>> {url_x} похоже, база пустая - {json_data}")
+        print(f"ow!>>>>>>>>>>>>>>>>>>>>>> {url_x} db empty - {json_data}")
     else:
         if "name" in json_data:
             print(json_data["name"])
