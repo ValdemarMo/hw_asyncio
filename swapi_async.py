@@ -20,9 +20,9 @@ async def get_json(url_x):
     return json_data
 
 
-async def get_in(json_in, name_in):
+async def get_in(list_in, name_in):
     r = []
-    for x_in in json_in:
+    for x_in in list_in:
         json_x = await get_json(x_in)
         r.append(json_x[name_in])
     return ", ".join(r) if r else "None"
