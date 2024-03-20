@@ -1,4 +1,4 @@
-# Задание к лекции «Asyncio»
+# Asyncio
 
 В этом задании мы будем выгружать из API персонажей Start Wars и загружать в базу данных.<br>
 Документация по API находится здесь: [SWAPI](https://swapi.dev/documentation#people). <br>
